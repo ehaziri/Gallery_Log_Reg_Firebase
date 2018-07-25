@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5F0BDA2D351CBC7FDA6F240 /* Pods_LogReg_CRUD_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0955D37C7EBA43C50A102D0 /* Pods_LogReg_CRUD_Firebase.framework */; };
 		E206D8FC20A9C17900E94624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206D8FB20A9C17900E94624 /* AppDelegate.swift */; };
-		E206D8FE20A9C17900E94624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206D8FD20A9C17900E94624 /* ViewController.swift */; };
+		E206D8FE20A9C17900E94624 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206D8FD20A9C17900E94624 /* InitialViewController.swift */; };
 		E206D90120A9C17900E94624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E206D8FF20A9C17900E94624 /* Main.storyboard */; };
 		E206D90320A9C18700E94624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E206D90220A9C18700E94624 /* Assets.xcassets */; };
 		E206D90620A9C18700E94624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E206D90420A9C18700E94624 /* LaunchScreen.storyboard */; };
+		E206D91120A9DAEB00E94624 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206D91020A9DAEB00E94624 /* LoginViewController.swift */; };
+		E206D91320A9DB0C00E94624 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206D91220A9DB0C00E94624 /* RegisterViewController.swift */; };
+		E206D91520A9F4CE00E94624 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E206D91420A9F4CE00E94624 /* GoogleService-Info.plist */; };
+		E29A210820AF334400E257C9 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A210720AF334400E257C9 /* PostTableViewCell.swift */; };
+		E2A81D7820AC5557008D76ED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A81D7720AC5557008D76ED /* HomeViewController.swift */; };
+		E2A81D7A20AC71BA008D76ED /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A81D7920AC71BA008D76ED /* ComposeViewController.swift */; };
+		E2A81D7C20AC9B7E008D76ED /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A81D7B20AC9B7E008D76ED /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61678BB5AEB0759A04DE94BD /* Pods-LogReg_CRUD_Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogReg_CRUD_Firebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-LogReg_CRUD_Firebase/Pods-LogReg_CRUD_Firebase.release.xcconfig"; sourceTree = "<group>"; };
+		D0955D37C7EBA43C50A102D0 /* Pods_LogReg_CRUD_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogReg_CRUD_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E167F06DEA48920293688612 /* Pods-LogReg_CRUD_Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogReg_CRUD_Firebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LogReg_CRUD_Firebase/Pods-LogReg_CRUD_Firebase.debug.xcconfig"; sourceTree = "<group>"; };
 		E206D8F820A9C17900E94624 /* LogReg_CRUD_Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogReg_CRUD_Firebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E206D8FB20A9C17900E94624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E206D8FD20A9C17900E94624 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E206D8FD20A9C17900E94624 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		E206D90020A9C17900E94624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E206D90220A9C18700E94624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E206D90520A9C18700E94624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E206D90720A9C18700E94624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E206D91020A9DAEB00E94624 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E206D91220A9DB0C00E94624 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E206D91420A9F4CE00E94624 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E29A210720AF334400E257C9 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		E2A81D7720AC5557008D76ED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E2A81D7920AC71BA008D76ED /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		E2A81D7B20AC9B7E008D76ED /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F0BDA2D351CBC7FDA6F240 /* Pods_LogReg_CRUD_Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0754E8A0872809F853862ED1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0955D37C7EBA43C50A102D0 /* Pods_LogReg_CRUD_Firebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F3AECFDAEAC64F130612C86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E167F06DEA48920293688612 /* Pods-LogReg_CRUD_Firebase.debug.xcconfig */,
+				61678BB5AEB0759A04DE94BD /* Pods-LogReg_CRUD_Firebase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E206D8EF20A9C17800E94624 = {
 			isa = PBXGroup;
 			children = (
 				E206D8FA20A9C17900E94624 /* LogReg_CRUD_Firebase */,
 				E206D8F920A9C17900E94624 /* Products */,
+				6F3AECFDAEAC64F130612C86 /* Pods */,
+				0754E8A0872809F853862ED1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,45 @@
 		E206D8FA20A9C17900E94624 /* LogReg_CRUD_Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				E206D8FB20A9C17900E94624 /* AppDelegate.swift */,
-				E206D8FD20A9C17900E94624 /* ViewController.swift */,
-				E206D8FF20A9C17900E94624 /* Main.storyboard */,
-				E206D90220A9C18700E94624 /* Assets.xcassets */,
-				E206D90420A9C18700E94624 /* LaunchScreen.storyboard */,
+				E206D90D20A9C24A00E94624 /* Model */,
+				E206D90E20A9C24F00E94624 /* View */,
+				E206D90F20A9C25400E94624 /* Controller */,
 				E206D90720A9C18700E94624 /* Info.plist */,
+				E206D91420A9F4CE00E94624 /* GoogleService-Info.plist */,
 			);
 			path = LogReg_CRUD_Firebase;
+			sourceTree = "<group>";
+		};
+		E206D90D20A9C24A00E94624 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2A81D7B20AC9B7E008D76ED /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E206D90E20A9C24F00E94624 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E206D90220A9C18700E94624 /* Assets.xcassets */,
+				E206D90420A9C18700E94624 /* LaunchScreen.storyboard */,
+				E206D8FF20A9C17900E94624 /* Main.storyboard */,
+				E29A210720AF334400E257C9 /* PostTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E206D90F20A9C25400E94624 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E206D8FB20A9C17900E94624 /* AppDelegate.swift */,
+				E206D8FD20A9C17900E94624 /* InitialViewController.swift */,
+				E206D91020A9DAEB00E94624 /* LoginViewController.swift */,
+				E206D91220A9DB0C00E94624 /* RegisterViewController.swift */,
+				E2A81D7720AC5557008D76ED /* HomeViewController.swift */,
+				E2A81D7920AC71BA008D76ED /* ComposeViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E206D90A20A9C18700E94624 /* Build configuration list for PBXNativeTarget "LogReg_CRUD_Firebase" */;
 			buildPhases = (
+				0EC2F043F5087076F76BAE24 /* [CP] Check Pods Manifest.lock */,
 				E206D8F420A9C17900E94624 /* Sources */,
 				E206D8F520A9C17900E94624 /* Frameworks */,
 				E206D8F620A9C17900E94624 /* Resources */,
+				3FB45A4A97B14031DC250A25 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E206D90620A9C18700E94624 /* LaunchScreen.storyboard in Resources */,
+				E206D91520A9F4CE00E94624 /* GoogleService-Info.plist in Resources */,
 				E206D90320A9C18700E94624 /* Assets.xcassets in Resources */,
 				E206D90120A9C17900E94624 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +202,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EC2F043F5087076F76BAE24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogReg_CRUD_Firebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FB45A4A97B14031DC250A25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LogReg_CRUD_Firebase/Pods-LogReg_CRUD_Firebase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LogReg_CRUD_Firebase/Pods-LogReg_CRUD_Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E206D8F420A9C17900E94624 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E206D8FE20A9C17900E94624 /* ViewController.swift in Sources */,
+				E2A81D7820AC5557008D76ED /* HomeViewController.swift in Sources */,
+				E206D91120A9DAEB00E94624 /* LoginViewController.swift in Sources */,
+				E206D8FE20A9C17900E94624 /* InitialViewController.swift in Sources */,
+				E29A210820AF334400E257C9 /* PostTableViewCell.swift in Sources */,
+				E2A81D7A20AC71BA008D76ED /* ComposeViewController.swift in Sources */,
 				E206D8FC20A9C17900E94624 /* AppDelegate.swift in Sources */,
+				E2A81D7C20AC9B7E008D76ED /* Post.swift in Sources */,
+				E206D91320A9DB0C00E94624 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,15 +403,17 @@
 		};
 		E206D90B20A9C18700E94624 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E167F06DEA48920293688612 /* Pods-LogReg_CRUD_Firebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23GPQ52FA4;
 				INFOPLIST_FILE = LogReg_CRUD_Firebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xona.nearbyeventsfacebook.LogReg-CRUD-Firebase";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xona.LogReg-CRUD-Firebase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,15 +422,17 @@
 		};
 		E206D90C20A9C18700E94624 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61678BB5AEB0759A04DE94BD /* Pods-LogReg_CRUD_Firebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23GPQ52FA4;
 				INFOPLIST_FILE = LogReg_CRUD_Firebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xona.nearbyeventsfacebook.LogReg-CRUD-Firebase";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xona.LogReg-CRUD-Firebase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
